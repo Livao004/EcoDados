@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
   background-color: #e6f4ea;
-  color: #2e4d2c;
+  color: #000000;
 }
 
 header {
@@ -36,6 +36,7 @@ header {
 .imagem-banner {
   margin-top: 80px; /* Ajuste conforme a altura real do header */
 }
+
 
 header h1 {
   margin: 0.5rem 0;
@@ -168,6 +169,7 @@ footer {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 @media (max-width: 600px) {
   .header-topo {
     flex-direction: column;
@@ -177,8 +179,9 @@ footer {
 
   header h1 {
     font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
-
+  
   nav {
     flex-direction: column;
     align-items: center;
@@ -195,17 +198,21 @@ footer {
     height: 30px;
   }
 }
-@media (max-width: 600px) {
-  #bibliografia {
-    padding: 20px 15px;
-    margin: 20px 10px;
-  }
+.topo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
-  #bibliografia h2 {
-    font-size: 20px;
-  }
+.logo-titulo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
 
-  #bibliografia li {
-    font-size: 14px;
-  }
+.logoecodados {
+  width: 100px; /* Ajuste conforme necessário */
+  height: auto;
+  border-radius: 8px;
 }
