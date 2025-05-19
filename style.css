@@ -195,3 +195,17 @@ footer {
     height: 30px;
   }
 }
+@media (max-width: 600px) {
+  #bibliografia {
+    padding: 20px 15px;
+    margin: 20px 10px;
+  }
+
+  #bibliografia h2 {
+    font-size: 20px;
+  }
+
+  #bibliografia li {
+    font-size: 14px;
+  }
+}
