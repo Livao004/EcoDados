@@ -11,5 +11,4 @@ window.onscroll = function () {
 // Voltar ao topo ao clicar
 document.getElementById("btnTopo").onclick = function () {
   window.scrollTo({ top: 0, behavior: "smooth" });
-}
- 
+};
